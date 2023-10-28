@@ -1,0 +1,21 @@
+body{
+    text-align: center;
+    background-color: aliceblue;
+}
+#backgroundImg{
+    position: fixed;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+    left: 0px;
+}
+button{
+    font-size: 25vw;
+    width: 95%;
+    height: 18%;
+    margin: 2%;
+    border-radius: 5vw;
+    border: 15px solid white;
+    font-style: italic;
+}
