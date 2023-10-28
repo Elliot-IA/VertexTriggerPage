@@ -9,6 +9,7 @@ body{
     width: 100%;
     opacity: 0.7;
     left: 0px;
+    z-index: 0;
 }
 button{
     font-size: 25vw;
@@ -18,4 +19,6 @@ button{
     border-radius: 5vw;
     border: 15px solid white;
     font-style: italic;
+    z-index: 1;
+    position: relative;
 }
