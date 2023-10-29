@@ -25,9 +25,9 @@ app.get("/gus", function(req, res){
         console.log("stderr: "+stderr);
         if (error !== null) {
             console.log(`exec error: ${error}`);
-            res.send({"Refresh Worked! (:"});
+            res.send({result:"Refresh Worked! (:"});
         }else{
-            res.send({"Refresh Failed /:"});
+            res.send({result:"Refresh Failed /:"});
         }
     });
 });
@@ -38,9 +38,9 @@ app.get("/jonah", function(req, res){
         console.log("stderr: "+stderr);
         if (error !== null) {
             console.log(`exec error: ${error}`);
-            res.send({"Refresh Worked! (:"});
+            res.send({result:"Refresh Worked! (:"});
         }else{
-            res.send({"Refresh Failed /:"});
+            res.send({result:"Refresh Failed /:"});
         }
     });
 });
@@ -51,9 +51,9 @@ app.get("/kendell", function(req, res){
         console.log("stderr: "+stderr);
         if (error !== null) {
             console.log(`exec error: ${error}`);
-            res.send({"Refresh Worked! (:"});
+            res.send({result:"Refresh Worked! (:"});
         }else{
-            res.send({"Refresh Failed /:"});
+            res.send({result:"Refresh Failed /:"});
         }
     });
 });
@@ -64,9 +64,9 @@ app.get("/logan", function(req, res){
         console.log("stderr: "+stderr);
         if (error !== null) {
             console.log(`exec error: ${error}`);
-            res.send({"Refresh Worked! (:"});
+            res.send({result:"Refresh Worked! (:"});
         }else{
-            res.send({"Refresh Failed /:"});
+            res.send({result:"Refresh Failed /:"});
         }
     });
 });
