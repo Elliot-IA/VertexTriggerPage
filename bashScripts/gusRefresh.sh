@@ -1,3 +1,3 @@
 #!/bin/bash
-cd ../../PhysicianUI
+cd ../PhysicianUI
 bash refresh.sh
