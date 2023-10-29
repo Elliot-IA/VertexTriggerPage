@@ -23,12 +23,12 @@ app.get("/gus", function(req, res){
                           (error, stdout, stderr) => {
         console.log("stdou: "+stdout);
         console.log("stderr: "+stderr);
-        if (error !== null) {
+        /*if (error !== null) {
             console.log(`exec error: ${error}`);
             res.send({result:"Refresh Worked! (:"});
-        }else{
-            res.send({result:"Refresh Failed /:"});
-        }
+        }else{*/
+            res.send({result:"Refresh Complete! (:"});//Failed /:"});
+        //} 
     });
 });
 app.get("/jonah", function(req, res){
@@ -36,12 +36,12 @@ app.get("/jonah", function(req, res){
                           (error, stdout, stderr) => {
         console.log("stdou: "+stdout);
         console.log("stderr: "+stderr);
-        if (error !== null) {
+        /*if (error !== null) {
             console.log(`exec error: ${error}`);
             res.send({result:"Refresh Worked! (:"});
-        }else{
-            res.send({result:"Refresh Failed /:"});
-        }
+        }else{*/
+            res.send({result:"Refresh Complete! (:"});//Failed /:"});
+        //}
     });
 });
 app.get("/kendell", function(req, res){
@@ -49,12 +49,12 @@ app.get("/kendell", function(req, res){
                           (error, stdout, stderr) => {
         console.log("stdou: "+stdout);
         console.log("stderr: "+stderr);
-        if (error !== null) {
+        /*if (error !== null) {
             console.log(`exec error: ${error}`);
             res.send({result:"Refresh Worked! (:"});
-        }else{
-            res.send({result:"Refresh Failed /:"});
-        }
+        }else{*/
+            res.send({result:"Refresh Complete! (:"});//Failed /:"});
+        //}
     });
 });
 app.get("/logan", function(req, res){
@@ -62,12 +62,12 @@ app.get("/logan", function(req, res){
                           (error, stdout, stderr) => {
         console.log("stdou: "+stdout);
         console.log("stderr: "+stderr);
-        if (error !== null) {
+        /*if (error !== null) {
             console.log(`exec error: ${error}`);
             res.send({result:"Refresh Worked! (:"});
-        }else{
-            res.send({result:"Refresh Failed /:"});
-        }
+        }else{*/
+            res.send({result:"Refresh Complete! (:"});//Failed /:"});
+        //}
     });
 });
 
